@@ -1,0 +1,27 @@
+{
+  "name": "shilo_degen",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx .",
+    "build": "tsc",
+    "dev": "tsx watch src"
+  },
+  "dependencies": {
+    "chatgpt": "^5.0.4",
+    "dotenv": "^16.0.3",
+    "input": "^1.0.1",
+    "inquirer": "^9.1.4",
+    "node-persist": "^3.1.3",
+    "store2": "^2.14.2",
+    "telegram": "^2.15.10",
+    "ts-dedent": "^2.2.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/inquirer": "^9.0.3",
+    "@types/node": "^18.14.4",
+    "@types/node-persist": "^3.1.3",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  }
+}
